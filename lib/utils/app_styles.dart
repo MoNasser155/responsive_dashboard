@@ -51,7 +51,7 @@ abstract class AppStyles {
   );
 
   static const TextStyle styleRegular12 = TextStyle(
-    color: Color(0xFFAAAAAA),
+    color: Color.fromARGB(255, 138, 138, 138),
     fontSize: 12,
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w400,
@@ -64,7 +64,7 @@ abstract class AppStyles {
     fontWeight: FontWeight.w400,
   );
 
-   static const TextStyle stylesemiBold24 = TextStyle(
+  static const TextStyle stylesemiBold24 = TextStyle(
     color: Color(0xFF4EB7F2),
     fontSize: 24,
     fontFamily: 'Montserrat',
