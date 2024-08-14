@@ -6,7 +6,7 @@ class TransactionItem extends StatelessWidget {
   const TransactionItem({
     super.key,
     required this.transactionModel,
-    required TransactionHistoryModel TransactionHistoryModel,
+    required TransactionHistoryModel transactionHistoryModel,
   });
 
   final TransactionHistoryModel transactionModel;

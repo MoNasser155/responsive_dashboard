@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_dashboard/views/widgets/custom_background_container.dart';
-
 import 'package:responsive_dashboard/views/widgets/my_cards_section.dart';
 import 'package:responsive_dashboard/views/widgets/transaction_history.dart';
 
@@ -12,11 +11,7 @@ class MyCardsAndTransactionsHistorySection extends StatelessWidget {
     return const CustomBackGroundContainer(
       padding: 24,
       child: Column(
-        
         children: [
-          SizedBox(
-            height: 40,
-          ),
           MyCardsSection(),
           Divider(
             color: Color(0xffF1F1F1),

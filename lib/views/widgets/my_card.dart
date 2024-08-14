@@ -109,5 +109,3 @@ class MyCard extends StatelessWidget {
     );
   }
 }
-
-

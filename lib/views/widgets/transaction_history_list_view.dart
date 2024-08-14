@@ -24,11 +24,10 @@ class TransactionHistoryListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      
       children: items
           .map((e) => TransactionItem(
                 transactionModel: e,
-                TransactionHistoryModel: e,
+                transactionHistoryModel: e,
               ))
           .toList(),
     );
