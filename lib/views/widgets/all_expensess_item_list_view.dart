@@ -21,7 +21,7 @@ class _AllExpensessItemListViewState extends State<AllExpensessItemListView> {
     AllExpensessItemModel(
         image: Assets.imagesIncome,
         title: 'Income',
-        data: 'April 2022',
+        data: 'jun 2022',
         price: 20),
     AllExpensessItemModel(
         image: Assets.imagesExpenses,
