@@ -14,13 +14,14 @@ class DashBoardDesktopLayout extends StatelessWidget {
     return const Row(
       children: [
         Expanded(
+          flex: 2,
           child: CustomDrawer(),
         ),
         SizedBox(
           width: 32,
         ),
         Expanded(
-          flex: 2,
+          flex: 3,
           child: SingleChildScrollView(
             child: Padding(
               padding: EdgeInsets.only(
@@ -34,6 +35,7 @@ class DashBoardDesktopLayout extends StatelessWidget {
           width: 24,
         ),
         Expanded(
+          flex: 3,
           child: SingleChildScrollView(
             child: Column(
               children: [

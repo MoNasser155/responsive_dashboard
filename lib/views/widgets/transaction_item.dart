@@ -30,11 +30,11 @@ class TransactionItem extends StatelessWidget {
               children: [
                 Text(
                   transactionModel.title,
-                  style: AppStyles.styleSemiBold16,
+                  style: AppStyles.styleSemiBold16(context),
                 ),
                 Text(
                   transactionModel.date,
-                  style: AppStyles.styleRegular16.copyWith(
+                  style: AppStyles.styleRegular16(context).copyWith(
                     color: const Color(
                       0xFFAAAAAA,
                     ),
@@ -44,7 +44,7 @@ class TransactionItem extends StatelessWidget {
             ),
             Text(
               transactionModel.amount,
-              style: AppStyles.stylesemiBold20.copyWith(
+              style: AppStyles.styleSemiBold20(context).copyWith(
                 color: transactionModel.isWithdraw ? Colors.red : Colors.green,
               ),
             )

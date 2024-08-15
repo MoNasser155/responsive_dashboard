@@ -26,12 +26,12 @@ class IncomeItemDetails extends StatelessWidget {
         ),
         Text(
           incomeSectionModel.title,
-          style: AppStyles.styleRegular16,
+          style: AppStyles.styleRegular16(context),
         ),
         const Spacer(),
         Text(
           incomeSectionModel.value,
-          style: AppStyles.styleMedium16,
+          style: AppStyles.styleMedium16(context),
         )
       ],
     );

@@ -42,12 +42,12 @@ class MyCard extends StatelessWidget {
                     ),
                     title: Text(
                       'Card Title',
-                      style: AppStyles.styleRegular16
+                      style: AppStyles.styleRegular16(context)
                           .copyWith(color: Colors.white),
                     ),
-                    subtitle: const Text(
+                    subtitle:  Text(
                       'Syah Bandi',
-                      style: AppStyles.styleMedium20,
+                      style: AppStyles.styleMedium20(context),
                     ),
                     trailing: SvgPicture.asset(
                       Assets.imagesGallery,
@@ -59,7 +59,7 @@ class MyCard extends StatelessWidget {
                     children: [
                       Text(
                         '0918 8124 0042 8129',
-                        style: AppStyles.stylesemiBold24.copyWith(
+                        style: AppStyles.styleSemiBold24(context).copyWith(
                           color: Colors.white,
                         ),
                       )
@@ -73,7 +73,7 @@ class MyCard extends StatelessWidget {
                     children: [
                       Text(
                         '12/20',
-                        style: AppStyles.styleRegular16.copyWith(
+                        style: AppStyles.styleRegular16(context).copyWith(
                           color: Colors.white,
                         ),
                       ),
@@ -82,7 +82,7 @@ class MyCard extends StatelessWidget {
                       ),
                       Text(
                         '-',
-                        style: AppStyles.styleRegular16.copyWith(
+                        style: AppStyles.styleRegular16(context).copyWith(
                           color: Colors.white,
                         ),
                       ),
@@ -91,7 +91,7 @@ class MyCard extends StatelessWidget {
                       ),
                       Text(
                         '124',
-                        style: AppStyles.styleRegular16.copyWith(
+                        style: AppStyles.styleRegular16(context).copyWith(
                           color: Colors.white,
                         ),
                       ),

@@ -12,12 +12,12 @@ class TransactionHistoryListView extends StatelessWidget {
         isWithdraw: true),
     TransactionHistoryModel(
         title: 'Landing Page project',
-        date: '13 Apr, 2022 at 3:30 PM',
+        date: '13 Apr, 2022',
         amount: '\$2,000',
         isWithdraw: false),
     TransactionHistoryModel(
         title: 'Juni Mobile App project',
-        date: '13 Apr, 2022 at 3:30 PM',
+        date: '13 Apr, 2022',
         amount: '\$20,129',
         isWithdraw: false),
   ];
